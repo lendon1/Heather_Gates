@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tax_assesor_id: MyText
+  legal_owner: MyText
+  building: MyText
+  unit: MyText
+
+two:
+  tax_assesor_id: MyText
+  legal_owner: MyText
+  building: MyText
+  unit: MyText

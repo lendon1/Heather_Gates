@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Tax assesor:</b>
+  <%= @unit.tax_assesor_id %>
+</p>
+
+<p>
+  <b>Legal owner:</b>
+  <%= @unit.legal_owner %>
+</p>
+
+<p>
+  <b>Building:</b>
+  <%= @unit.building %>
+</p>
+
+<p>
+  <b>Unit:</b>
+  <%= @unit.unit %>
+</p>
+
+
+<%= link_to 'Edit', edit_unit_path(@unit) %> |
+<%= link_to 'Back', units_path %>

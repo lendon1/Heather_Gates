@@ -1,0 +1,29 @@
+<h1>Listing units</h1>
+
+<table>
+  <tr>
+    <th>Tax assesor</th>
+    <th>Legal owner</th>
+    <th>Building</th>
+    <th>Unit</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @units.each do |unit| %>
+  <tr>
+    <td><%= unit.tax_assesor_id %></td>
+    <td><%= unit.legal_owner %></td>
+    <td><%= unit.building %></td>
+    <td><%= unit.unit %></td>
+    <td><%= link_to 'Show', unit %></td>
+    <td><%= link_to 'Edit', edit_unit_path(unit) %></td>
+    <td><%= link_to 'Destroy', unit, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Unit', new_unit_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  Unit_Number: MyText
+  Unit_Floor: 
+  Unit_Block: MyString
+
+two:
+  Unit_Number: MyText
+  Unit_Floor: 
+  Unit_Block: MyString

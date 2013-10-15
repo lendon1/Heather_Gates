@@ -1,0 +1,29 @@
+<%= form_for(@unit) do |f| %>
+  <% if @unit.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@unit.errors.count, "error") %> prohibited this unit from being saved:</h2>
+
+      <ul>
+      <% @unit.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Unit_Number %><br />
+    <%= f.text_area :Unit_Number %>
+  </div>
+  <div class="field">
+    <%= f.label :Unit_Floor %><br />
+    <%= f.text_field :Unit_Floor %>
+  </div>
+  <div class="field">
+    <%= f.label :Unit_Block %><br />
+    <%= f.text_field :Unit_Block %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

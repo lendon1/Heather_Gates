@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  other_name: MyString
+  id_type: MyString
+  id_number: MyString
+  id_state: MyString
+  primary_contact: false
+
+two:
+  first_name: MyString
+  last_name: MyString
+  other_name: MyString
+  id_type: MyString
+  id_number: MyString
+  id_state: MyString
+  primary_contact: false

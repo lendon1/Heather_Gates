@@ -1,0 +1,29 @@
+<h1>Listing access_devices</h1>
+
+<table>
+  <tr>
+    <th>Device type</th>
+    <th>Device manufacturer</th>
+    <th>Device serial</th>
+    <th>Device</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @access_devices.each do |access_device| %>
+  <tr>
+    <td><%= access_device.device_type %></td>
+    <td><%= access_device.device_manufacturer %></td>
+    <td><%= access_device.device_serial %></td>
+    <td><%= access_device.device_id %></td>
+    <td><%= link_to 'Show', access_device %></td>
+    <td><%= link_to 'Edit', edit_access_device_path(access_device) %></td>
+    <td><%= link_to 'Destroy', access_device, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Access device', new_access_device_path %>

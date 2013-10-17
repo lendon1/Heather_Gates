@@ -1,3 +1,3 @@
 class Unit < ActiveRecord::Base
-  attr_accessible :Unit_Block, :Unit_Floor, :Unit_Number
+  attr_accessible :tax_assesor_id, :building, :unit
 end

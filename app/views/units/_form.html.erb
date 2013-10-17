@@ -12,16 +12,16 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :Unit_Number %><br />
-    <%= f.text_area :Unit_Number %>
+    <%= f.label :Tax_Assesor_ID %><br />
+    <%= f.text_area @tax_assesor_id %>
   </div>
   <div class="field">
-    <%= f.label :Unit_Floor %><br />
-    <%= f.text_field :Unit_Floor %>
+    <%= f.label :Building %><br />
+    <%= f.text_field @building %>
   </div>
   <div class="field">
-    <%= f.label :Unit_Block %><br />
-    <%= f.text_field :Unit_Block %>
+    <%= f.label :Number%><br />
+    <%= f.text_field @unit %>
   </div>
   <div class="actions">
     <%= f.submit %>

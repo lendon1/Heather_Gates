@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Device type:</b>
+  <%= @access_device.device_type %>
+</p>
+
+<p>
+  <b>Device manufacturer:</b>
+  <%= @access_device.device_manufacturer %>
+</p>
+
+<p>
+  <b>Device serial:</b>
+  <%= @access_device.device_serial %>
+</p>
+
+<p>
+  <b>Device:</b>
+  <%= @access_device.device_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_access_device_path(@access_device) %> |
+<%= link_to 'Back', access_devices_path %>

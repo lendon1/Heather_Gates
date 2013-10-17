@@ -1,0 +1,33 @@
+<%= form_for(@access_device) do |f| %>
+  <% if @access_device.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@access_device.errors.count, "error") %> prohibited this access_device from being saved:</h2>
+
+      <ul>
+      <% @access_device.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :device_type %><br />
+    <%= f.text_field :device_type %>
+  </div>
+  <div class="field">
+    <%= f.label :device_manufacturer %><br />
+    <%= f.text_field :device_manufacturer %>
+  </div>
+  <div class="field">
+    <%= f.label :device_serial %><br />
+    <%= f.text_field :device_serial %>
+  </div>
+  <div class="field">
+    <%= f.label :device_id %><br />
+    <%= f.text_field :device_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

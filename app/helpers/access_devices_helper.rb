@@ -1,0 +1,2 @@
+module AccessDevicesHelper
+end

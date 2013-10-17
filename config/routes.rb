@@ -1,4 +1,12 @@
 HeatherGates::Application.routes.draw do
+  get "main_menu/main_menu"
+
+  resources :access_devices
+
+  resources :contact_infos
+
+  resources :people
+
   resources :units
 
   # The priority is based upon order of creation:
@@ -50,7 +58,7 @@ HeatherGates::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  root :to => 'main_menu#welcome'
 
   # See how all your routes lay out with "rake routes"
 

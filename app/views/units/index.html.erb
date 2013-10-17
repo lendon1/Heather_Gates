@@ -2,10 +2,11 @@
 
 <table>
   <tr>
-    <th>Tax assesor</th>
-    <th>Legal owner</th>
-    <th>Building</th>
+    <th>Tax Assessor ID</th>
+    <th>Legal Owner</th>
+    <th>Block</th>
     <th>Unit</th>
+    <th></th>
     <th></th>
     <th></th>
     <th></th>
@@ -15,11 +16,11 @@
   <tr>
     <td><%= unit.tax_assesor_id %></td>
     <td><%= unit.legal_owner %></td>
-    <td><%= unit.building %></td>
+    <td><%= unit.block %></td>
     <td><%= unit.unit %></td>
     <td><%= link_to 'Show', unit %></td>
     <td><%= link_to 'Edit', edit_unit_path(unit) %></td>
-    <td><%= link_to 'Destroy', unit, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'Destroy', unit, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>

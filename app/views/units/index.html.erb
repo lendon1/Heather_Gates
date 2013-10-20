@@ -1,30 +1,30 @@
-<h1>Listing units</h1>
-
-<table>
-  <tr>
-    <th>Tax Assessor ID</th>
-    <th>Legal Owner</th>
-    <th>Block</th>
-    <th>Unit</th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @units.each do |unit| %>
-  <tr>
-    <td><%= unit.tax_assesor_id %></td>
-    <td><%= unit.legal_owner %></td>
-    <td><%= unit.building %></td>
-    <td><%= unit.unit %></td>
-    <td><%= link_to 'Show', unit %></td>
-    <td><%= link_to 'Edit', edit_unit_path(unit) %></td>
-    <td><%= link_to 'Destroy', unit, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
+<div class="container">
+  <%= render 'shared/header' %>
+  <%= render 'shared/navbar' %>
+  <div class="content">
+  <h1>Listing units</h1>
+    <p>Click to open the date picker:</p>
+    <p><input type="text" class="datepicker"></p>
+        <table id="unit_list">
+         <thead>
+              <tr>
+                <th>Tax Assessor ID</th>
+                <th>Legal Owner</th>
+                <th>Block</th>
+                <th>Unit</th>
+              </tr>
+         </thead>
+         <tbody>
+        <% @units.each do |unit| %>
+                  <tr>
+                    <td><%= unit.tax_assesor_id %></td>
+                    <td><%= unit.legal_owner %></td>
+                    <td><%= unit.building %></td>
+                    <td><%= unit.unit %></td>
+                    </tr>
+        <% end %>
+    </tbody>
 </table>
-
-<br />
-
-<%= link_to 'New Unit', new_unit_path %>
+</div>
+  <%= render 'shared/footer' %>
+</div>

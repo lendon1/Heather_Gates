@@ -1,0 +1,37 @@
+<div class="sidebar1">
+	<div id="User_login_info">
+		<div id="user_nav" class="ui-widget-header ui-widget-content">
+				<% if user_signed_in? %>
+					<p><%= current_user.email %> </p>
+					<p><%= current_user.current_sign_in_at %> </p>
+					<p><%= current_user.current_sign_in_ip %> </p>
+					<p><%= button_to "Sign Out", destroy_user_session_path,
+						:method=>:delete,
+						:class=>:destroy %>
+					</p>
+				<% else %>
+					<p> Not currently logged in </p>
+				<%= link_to "Sign up for a new account", new_user_registration_path %>
+				<%= link_to "sign in with a current account", new_user_session_path %>
+				<% end %>
+                <hr>
+				<p>System Messages</p>
+				<p class="notice"><%= notice %></p>
+				<p class="alert"><%= alert %></p>
+                <hr>
+          <p>Theme Switcher</p>
+          <div id="switcher"></div>
+          <p>Short Cuts</p>
+          <div id="unit_tab">
+            <%= link_to 'List/Search Condo Units', units_path %>
+          </div>
+          <div id="contact_info_tab">
+            <%= link_to 'List/Search Contact Info', contact_infos_path %>
+          </div>
+          <div id="access_devices_tab">
+            <%= link_to 'List/Search Access Devices', access_devices_path %>
+          </div>
+
+        </div>
+	</div>
+<!-- end .sidebar1 --></div>

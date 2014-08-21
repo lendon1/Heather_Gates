@@ -1,46 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="DataSourceManagerImpl" format="xml" hash="1621064547">
     <data-source source="LOCAL" name="Rails Heather_Gates: test" uuid="4620f58c-2721-484e-bec0-564dda678217">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://mammoth.lennyblumberg.com/Heather_Gates_Dev_test</jdbc-url>
+=======
+  <component name="DataSourceManagerImpl" format="xml" hash="0">
+    <data-source source="LOCAL" name="Rails Heather_Gates: development" uuid="c9242cb9-8d97-48b0-88cd-6eaa7e7fff92">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mammoth.lennyblumberg.com/Heather_Gates_Dev</jdbc-url>
+>>>>>>> c52f3d75b58b0c687767108127ed8fae939fa1a1
       <user-name>Heather_Admin</user-name>
       <user-password>dfdddfcfdfc6dfc9dfc5dfc7dfcfdf9b</user-password>
       <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
-        </library>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
         </library>
       </libraries>
     </data-source>
+<<<<<<< HEAD
     <data-source source="LOCAL" name="Rails Heather_Gates: production" uuid="aaf6cb19-6e42-4965-bd01-dadff772a549">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://mammoth.lennyblumberg.com/Heather_Gates_Dev_production</jdbc-url>
+=======
+    <data-source source="LOCAL" name="Rails Heather_Gates: test" uuid="72cc8c20-ce51-49d5-851e-87fb6d2dbbab">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mammoth.lennyblumberg.com/Heather_Gates_Dev_test</jdbc-url>
+>>>>>>> c52f3d75b58b0c687767108127ed8fae939fa1a1
       <user-name>Heather_Admin</user-name>
       <user-password>dfdddfcfdfc6dfc9dfc5dfc7dfcfdf9b</user-password>
       <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
-        </library>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
         </library>
       </libraries>
     </data-source>
+<<<<<<< HEAD
     <data-source source="LOCAL" name="Rails Heather_Gates: development" uuid="e29fa7e9-ed8b-494f-bd80-e467c4a0ef56">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://mammoth.lennyblumberg.com/Heather_Gates_Dev</jdbc-url>
+=======
+    <data-source source="LOCAL" name="Rails Heather_Gates: production" uuid="d23521a3-bbbd-4458-a2da-3d7bd2808700">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mammoth.lennyblumberg.com/Heather_Gates_Dev_production</jdbc-url>
+>>>>>>> c52f3d75b58b0c687767108127ed8fae939fa1a1
       <user-name>Heather_Admin</user-name>
       <user-password>dfdddfcfdfc6dfc9dfc5dfc7dfcfdf9b</user-password>
       <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
-        </library>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
         </library>

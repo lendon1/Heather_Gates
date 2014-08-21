@@ -1,6 +1,8 @@
 HeatherGates::Application.routes.draw do
   devise_for :users
 
+  # devise_for :users
+
   get "main_menu/main_menu"
 
   resources :access_devices

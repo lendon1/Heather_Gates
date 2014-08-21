@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" hash="1621064547">
-    <data-source source="LOCAL" name="Rails Heather_Gates: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="4620f58c-2721-484e-bec0-564dda678217">
+    <data-source source="LOCAL" name="Rails Heather_Gates: test" uuid="4620f58c-2721-484e-bec0-564dda678217">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/Heather_Gates_test</jdbc-url>
-      <user-name>root</user-name>
+      <jdbc-url>jdbc:mysql://mammoth.lennyblumberg.com/Heather_Gates_Dev_test</jdbc-url>
+      <user-name>Heather_Admin</user-name>
       <user-password>dfdddfcfdfc6dfc9dfc5dfc7dfcfdf9b</user-password>
       <libraries>
         <library>
@@ -15,10 +16,11 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails Heather_Gates: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="aaf6cb19-6e42-4965-bd01-dadff772a549">
+    <data-source source="LOCAL" name="Rails Heather_Gates: production" uuid="aaf6cb19-6e42-4965-bd01-dadff772a549">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/Heather_Gates_production</jdbc-url>
-      <user-name>root</user-name>
+      <jdbc-url>jdbc:mysql://mammoth.lennyblumberg.com/Heather_Gates_Dev_production</jdbc-url>
+      <user-name>Heather_Admin</user-name>
       <user-password>dfdddfcfdfc6dfc9dfc5dfc7dfcfdf9b</user-password>
       <libraries>
         <library>
@@ -29,11 +31,12 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails Heather_Gates: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="e29fa7e9-ed8b-494f-bd80-e467c4a0ef56">
+    <data-source source="LOCAL" name="Rails Heather_Gates: development" uuid="e29fa7e9-ed8b-494f-bd80-e467c4a0ef56">
+      <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.1.4/Heather_Gates_Dev</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>dfc3df92dfc2dfc5dfdedfd9dfdedfdfdfccdfcc</user-password>
+      <jdbc-url>jdbc:mysql://mammoth.lennyblumberg.com/Heather_Gates_Dev</jdbc-url>
+      <user-name>Heather_Admin</user-name>
+      <user-password>dfdddfcfdfc6dfc9dfc5dfc7dfcfdf9b</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>

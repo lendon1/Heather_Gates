@@ -16,3 +16,4 @@
 
 # Ignore the IDE .idea folder
 /.idea
+/.idea/runConfigurations
